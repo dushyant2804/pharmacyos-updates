@@ -1,0 +1,13 @@
+{
+  "latest_version": "1.0.1",
+  "latest_build": 2,
+  "channel": "stable",
+  "mandatory": false,
+  "update_size_bytes": 52428800,
+  "download_url": "https://github.com/YOUR_USERNAME/YOUR_FRONTEND_OR_APP_REPO/releases/latest",
+  "release_date": "2026-06-30",
+  "whats_new": [
+    "Fixed inventory rebuild across multiple distributors",
+    "Improved update notification flow"
+  ]
+}
