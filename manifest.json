@@ -1,17 +1,17 @@
 {
-  "latest_version": "1.0.1",
-  "latest_build": "20260630000000-manual",
+  "latest_version": "0.1.0",
+  "latest_build": "20260702142145-0114dc7",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/YOUR_USERNAME/YOUR_FRONTEND_OR_APP_REPO/releases/latest",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28597240238/artifacts/8041752533",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Fixed inventory rebuild across multiple distributors",
-    "Improved update notification flow"
+    "Merge pull request #149 from dushyant2804/codex/add-github-actions-step-for-artifact-dispatch",
+    "Trigger update repo after frontend artifact upload"
   ],
-  "published_at": "2026-06-30T00:00:00Z",
-  "frontend_artifact_url": "https://github.com/YOUR_USERNAME/YOUR_FRONTEND_OR_APP_REPO/releases/latest",
-  "artifact_url": "https://github.com/YOUR_USERNAME/YOUR_FRONTEND_OR_APP_REPO/releases/latest",
-  "release_notes": "- Fixed inventory rebuild across multiple distributors\n- Improved update notification flow"
+  "published_at": "2026-07-02T14:21:45Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28597240238/artifacts/8041752533",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28597240238/artifacts/8041752533",
+  "release_notes": "Merge pull request #149 from dushyant2804/codex/add-github-actions-step-for-artifact-dispatch\n\nTrigger update repo after frontend artifact upload"
 }
