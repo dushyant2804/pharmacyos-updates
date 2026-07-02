@@ -1,0 +1,153 @@
+name: Update remote manifest
+
+on:
+  workflow_dispatch:
+    inputs:
+      latest_version:
+        description: "Release version to publish (for example, 1.2.3)"
+        required: true
+        type: string
+      artifact_url:
+        description: "Download URL for the GitHub-built frontend artifact or release asset"
+        required: true
+        type: string
+      release_notes:
+        description: "Release notes / what's new text"
+        required: false
+        type: string
+      channel:
+        description: "Release channel"
+        required: false
+        default: "stable"
+        type: string
+      mandatory:
+        description: "Whether this update is mandatory"
+        required: false
+        default: false
+        type: boolean
+  repository_dispatch:
+    types: [frontend-release, backend-release, app-release]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-manifest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-manifest:
+    name: Publish manifest.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout update repo
+        uses: actions/checkout@v4
+
+      - name: Build manifest values
+        id: values
+        shell: bash
+        env:
+          INPUT_VERSION: ${{ inputs.latest_version }}
+          INPUT_ARTIFACT_URL: ${{ inputs.artifact_url }}
+          INPUT_RELEASE_NOTES: ${{ inputs.release_notes }}
+          INPUT_CHANNEL: ${{ inputs.channel }}
+          INPUT_MANDATORY: ${{ inputs.mandatory }}
+          PAYLOAD_VERSION: ${{ github.event.client_payload.latest_version || github.event.client_payload.version }}
+          PAYLOAD_ARTIFACT_URL: ${{ github.event.client_payload.frontend_artifact_url || github.event.client_payload.artifact_url || github.event.client_payload.release_asset_url }}
+          PAYLOAD_RELEASE_NOTES: ${{ github.event.client_payload.release_notes || github.event.client_payload.whats_new }}
+          PAYLOAD_CHANNEL: ${{ github.event.client_payload.channel }}
+          PAYLOAD_MANDATORY: ${{ github.event.client_payload.mandatory }}
+          PAYLOAD_SOURCE_SHA: ${{ github.event.client_payload.sha || github.event.client_payload.source_sha }}
+        run: |
+          set -euo pipefail
+
+          version="${INPUT_VERSION:-${PAYLOAD_VERSION:-}}"
+          artifact_url="${INPUT_ARTIFACT_URL:-${PAYLOAD_ARTIFACT_URL:-}}"
+          release_notes="${INPUT_RELEASE_NOTES:-${PAYLOAD_RELEASE_NOTES:-}}"
+          channel="${INPUT_CHANNEL:-${PAYLOAD_CHANNEL:-stable}}"
+          mandatory="${INPUT_MANDATORY:-${PAYLOAD_MANDATORY:-false}}"
+          source_sha="${PAYLOAD_SOURCE_SHA:-${GITHUB_SHA}}"
+          short_sha="${source_sha:0:7}"
+          timestamp="$(date -u +'%Y%m%d%H%M%S')"
+
+          if [[ -z "$version" ]]; then
+            echo "latest_version is required. Pass workflow_dispatch input latest_version or repository_dispatch client_payload.latest_version." >&2
+            exit 1
+          fi
+          if [[ -z "$artifact_url" ]]; then
+            echo "artifact_url is required. Pass workflow_dispatch input artifact_url or repository_dispatch client_payload.frontend_artifact_url/artifact_url/release_asset_url." >&2
+            exit 1
+          fi
+
+          {
+            echo "latest_version=$version"
+            echo "latest_build=${timestamp}-${short_sha}"
+            echo "artifact_url=$artifact_url"
+            echo "channel=$channel"
+            echo "mandatory=$mandatory"
+            echo "published_at=$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            echo "release_notes<<NOTES"
+            echo "$release_notes"
+            echo "NOTES"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Update manifest.json
+        shell: bash
+        env:
+          LATEST_VERSION: ${{ steps.values.outputs.latest_version }}
+          LATEST_BUILD: ${{ steps.values.outputs.latest_build }}
+          ARTIFACT_URL: ${{ steps.values.outputs.artifact_url }}
+          RELEASE_NOTES: ${{ steps.values.outputs.release_notes }}
+          CHANNEL: ${{ steps.values.outputs.channel }}
+          MANDATORY: ${{ steps.values.outputs.mandatory }}
+          PUBLISHED_AT: ${{ steps.values.outputs.published_at }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path("manifest.json")
+          manifest = json.loads(path.read_text()) if path.exists() else {}
+
+          notes = os.environ.get("RELEASE_NOTES", "").strip()
+          whats_new = [line.strip(" -") for line in notes.splitlines() if line.strip(" -")]
+
+          manifest["latest_version"] = os.environ["LATEST_VERSION"]
+          manifest["latest_build"] = os.environ["LATEST_BUILD"]
+          manifest["published_at"] = os.environ["PUBLISHED_AT"]
+          manifest["frontend_artifact_url"] = os.environ["ARTIFACT_URL"]
+          manifest["artifact_url"] = os.environ["ARTIFACT_URL"]
+          manifest["download_url"] = os.environ["ARTIFACT_URL"]
+
+          if whats_new:
+              manifest["whats_new"] = whats_new
+              manifest["release_notes"] = notes
+          else:
+              manifest.setdefault("whats_new", [])
+              manifest.setdefault("release_notes", "")
+
+          if os.environ.get("CHANNEL"):
+              manifest["channel"] = os.environ["CHANNEL"]
+
+          mandatory = os.environ.get("MANDATORY", "false").lower()
+          manifest["mandatory"] = mandatory in {"1", "true", "yes", "on"}
+
+          path.write_text(json.dumps(manifest, indent=2) + "\n")
+          PY
+
+      - name: Commit and push manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- manifest.json; then
+            echo "manifest.json already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "chore: update remote manifest"
+          git push
