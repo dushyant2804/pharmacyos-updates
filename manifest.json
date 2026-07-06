@@ -1,17 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260705122937-e7f6a48",
+  "latest_build": "20260706091910-c3a0deb",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28740758386/artifacts/8091767595",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28781006013/artifacts/8104697197",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Merge pull request #150 from dushyant2804/codex/fix-update-center-frontend-handling",
-    "Fix Update Center response handling and preserve backend update flags; keep inventory lot rendering unchanged"
+    "Update Patients.jsx"
   ],
-  "published_at": "2026-07-05T12:29:37Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28740758386/artifacts/8091767595",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28740758386/artifacts/8091767595",
-  "release_notes": "Merge pull request #150 from dushyant2804/codex/fix-update-center-frontend-handling\n\nFix Update Center response handling and preserve backend update flags; keep inventory lot rendering unchanged"
+  "published_at": "2026-07-06T09:19:10Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28781006013/artifacts/8104697197",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28781006013/artifacts/8104697197",
+  "release_notes": "Update Patients.jsx"
 }
