@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260706135103-707e99b",
+  "latest_build": "20260706144942-42d640c",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28796446400/artifacts/8110988782",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28800351353/artifacts/8112613276",
   "release_date": "2026-06-30",
   "whats_new": [
     "Update Patients.jsx"
   ],
-  "published_at": "2026-07-06T13:51:03Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28796446400/artifacts/8110988782",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28796446400/artifacts/8110988782",
+  "published_at": "2026-07-06T14:49:42Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28800351353/artifacts/8112613276",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/28800351353/artifacts/8112613276",
   "release_notes": "Update Patients.jsx"
 }
