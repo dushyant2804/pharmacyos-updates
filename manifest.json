@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260710092514-876b930",
+  "latest_build": "20260710093756-1c24fcb",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29082884641/artifacts/8223528358",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29083589808/artifacts/8223815132",
   "release_date": "2026-06-30",
   "whats_new": [
     "Update Inventory.jsx"
   ],
-  "published_at": "2026-07-10T09:25:14Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29082884641/artifacts/8223528358",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29082884641/artifacts/8223528358",
+  "published_at": "2026-07-10T09:37:56Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29083589808/artifacts/8223815132",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29083589808/artifacts/8223815132",
   "release_notes": "Update Inventory.jsx"
 }
