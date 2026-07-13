@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260713114956-1a2e369",
+  "latest_build": "20260713122718-948ca17",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29247527503/artifacts/8278012567",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update build version"
+    "Update craco.config.js"
   ],
-  "published_at": "2026-07-13T11:49:56Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29247527503/artifacts/8278012567",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29247527503/artifacts/8278012567",
-  "release_notes": "Update build version"
+  "published_at": "2026-07-13T12:27:18Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
+  "release_notes": "Update craco.config.js"
 }
