@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260713082006-60d88b7",
+  "latest_build": "20260713093058-ef50b59",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29239303283/artifacts/8274753359",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update auto-dist-build.yml"
+    "Update package.json"
   ],
-  "published_at": "2026-07-13T08:20:06Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
-  "release_notes": "Update auto-dist-build.yml"
+  "published_at": "2026-07-13T09:30:58Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29239303283/artifacts/8274753359",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29239303283/artifacts/8274753359",
+  "release_notes": "Update package.json"
 }
