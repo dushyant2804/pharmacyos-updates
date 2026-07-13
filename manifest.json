@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260712094400-6df1463",
+  "latest_build": "20260713082006-60d88b7",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29187919519/artifacts/8258597386",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update DailySales.jsx"
+    "Update auto-dist-build.yml"
   ],
-  "published_at": "2026-07-12T09:44:00Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29187919519/artifacts/8258597386",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29187919519/artifacts/8258597386",
-  "release_notes": "Update DailySales.jsx"
+  "published_at": "2026-07-13T08:20:06Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29234972679/artifacts/8273052399",
+  "release_notes": "Update auto-dist-build.yml"
 }
