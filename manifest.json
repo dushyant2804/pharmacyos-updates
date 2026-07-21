@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260713122718-948ca17",
+  "latest_build": "20260721044536-bb55e9a",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update craco.config.js"
+    "Update Inventory.jsx"
   ],
-  "published_at": "2026-07-13T12:27:18Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29249808653/artifacts/8278913340",
-  "release_notes": "Update craco.config.js"
+  "published_at": "2026-07-21T04:45:36Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
+  "release_notes": "Update Inventory.jsx"
 }
