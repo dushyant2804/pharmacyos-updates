@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260721044536-bb55e9a",
+  "latest_build": "20260723091001-074c5b9",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update Inventory.jsx"
+    "Update Settings.jsx"
   ],
-  "published_at": "2026-07-21T04:45:36Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29802046778/artifacts/8484100498",
-  "release_notes": "Update Inventory.jsx"
+  "published_at": "2026-07-23T09:10:01Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
+  "release_notes": "Update Settings.jsx"
 }
