@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260723091001-074c5b9",
+  "latest_build": "20260723091255-cb67e58",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update Settings.jsx"
+    "Update privacyPassword.js"
   ],
-  "published_at": "2026-07-23T09:10:01Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994037247/artifacts/8558223599",
-  "release_notes": "Update Settings.jsx"
+  "published_at": "2026-07-23T09:12:55Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
+  "release_notes": "Update privacyPassword.js"
 }
