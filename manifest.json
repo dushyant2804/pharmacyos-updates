@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260723091255-cb67e58",
+  "latest_build": "20260813081950-fbc9acb",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31681456844/artifacts/9173662346",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update privacyPassword.js"
+    "Update register.js"
   ],
-  "published_at": "2026-07-23T09:12:55Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/29994228557/artifacts/8558306328",
-  "release_notes": "Update privacyPassword.js"
+  "published_at": "2026-08-13T08:19:50Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31681456844/artifacts/9173662346",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31681456844/artifacts/9173662346",
+  "release_notes": "Update register.js"
 }
