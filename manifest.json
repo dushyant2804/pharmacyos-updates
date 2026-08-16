@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260814112435-265f117",
+  "latest_build": "20260816103137-38d1bb2",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31795992233/artifacts/9217408213",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31941830763/artifacts/9262241319",
   "release_date": "2026-06-30",
   "whats_new": [
     "Update Ledger.jsx"
   ],
-  "published_at": "2026-08-14T11:24:35Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31795992233/artifacts/9217408213",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31795992233/artifacts/9217408213",
+  "published_at": "2026-08-16T10:31:37Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31941830763/artifacts/9262241319",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/31941830763/artifacts/9262241319",
   "release_notes": "Update Ledger.jsx"
 }
