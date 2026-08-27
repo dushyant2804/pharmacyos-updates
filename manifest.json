@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260827100308-ac06ee3",
+  "latest_build": "20260827121308-17146ae",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33061211318/artifacts/9641804378",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33070717693/artifacts/9645690547",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update Ledger.jsx"
+    "Update PurchaseOrders.jsx"
   ],
-  "published_at": "2026-08-27T10:03:08Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33061211318/artifacts/9641804378",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33061211318/artifacts/9641804378",
-  "release_notes": "Update Ledger.jsx"
+  "published_at": "2026-08-27T12:13:08Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33070717693/artifacts/9645690547",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33070717693/artifacts/9645690547",
+  "release_notes": "Update PurchaseOrders.jsx"
 }
