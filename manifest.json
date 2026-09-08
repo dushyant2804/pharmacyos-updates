@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260829075632-861bc3d",
+  "latest_build": "20260908101148-55a2c8b",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33241932776/artifacts/9711623772",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update Ledger.jsx"
+    "Refactor return quantity handling and adjustments"
   ],
-  "published_at": "2026-08-29T07:56:32Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33241932776/artifacts/9711623772",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/33241932776/artifacts/9711623772",
-  "release_notes": "Update Ledger.jsx"
+  "published_at": "2026-09-08T10:11:48Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
+  "release_notes": "Refactor return quantity handling and adjustments"
 }
