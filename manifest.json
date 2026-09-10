@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260908101148-55a2c8b",
+  "latest_build": "20260910145721-6e0802e",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Refactor return quantity handling and adjustments"
+    "Update Settings.jsx"
   ],
-  "published_at": "2026-09-08T10:11:48Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34213995568/artifacts/10051017135",
-  "release_notes": "Refactor return quantity handling and adjustments"
+  "published_at": "2026-09-10T14:57:21Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
+  "release_notes": "Update Settings.jsx"
 }
