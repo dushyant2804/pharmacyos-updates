@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260910145721-6e0802e",
+  "latest_build": "20260911072009-b3f62d9",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update Settings.jsx"
+    "Sync local frontend changes"
   ],
-  "published_at": "2026-09-10T14:57:21Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34492278442/artifacts/10158304331",
-  "release_notes": "Update Settings.jsx"
+  "published_at": "2026-09-11T07:20:09Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
+  "release_notes": "Sync local frontend changes"
 }
