@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260911072009-b3f62d9",
+  "latest_build": "20260911122411-62bf619",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34598589085/artifacts/10263557463",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Sync local frontend changes"
+    "Remove Google Drive backup integration from settings"
   ],
-  "published_at": "2026-09-11T07:20:09Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34573802646/artifacts/10188827402",
-  "release_notes": "Sync local frontend changes"
+  "published_at": "2026-09-11T12:24:11Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34598589085/artifacts/10263557463",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34598589085/artifacts/10263557463",
+  "release_notes": "Remove Google Drive backup integration from settings"
 }
