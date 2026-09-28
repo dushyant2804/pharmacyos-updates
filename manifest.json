@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260911164037-29575ba",
+  "latest_build": "20260928113959-d48b52d",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34623205799/artifacts/10272334811",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Update settings for Mongo sync and Backblaze B2"
+    "Fix Billing GST memo dependency"
   ],
-  "published_at": "2026-09-11T16:40:37Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34623205799/artifacts/10272334811",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/34623205799/artifacts/10272334811",
-  "release_notes": "Update settings for Mongo sync and Backblaze B2"
+  "published_at": "2026-09-28T11:39:59Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
+  "release_notes": "Fix Billing GST memo dependency"
 }
