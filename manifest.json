@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260928115526-e58c29b",
+  "latest_build": "20260928122245-bbbbba4",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
   "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Publish public frontend release for updater"
+    "Fix inventory detail scheme data source"
   ],
-  "published_at": "2026-09-28T11:55:26Z",
+  "published_at": "2026-09-28T12:22:45Z",
   "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
-  "release_notes": "Publish public frontend release for updater"
+  "release_notes": "Fix inventory detail scheme data source"
 }
