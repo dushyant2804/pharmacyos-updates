@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20260928113959-d48b52d",
+  "latest_build": "20260928115526-e58c29b",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
-  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
+  "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Fix Billing GST memo dependency"
+    "Publish public frontend release for updater"
   ],
-  "published_at": "2026-09-28T11:39:59Z",
-  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
-  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/actions/runs/36416847882/artifacts/10967467526",
-  "release_notes": "Fix Billing GST memo dependency"
+  "published_at": "2026-09-28T11:55:26Z",
+  "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
+  "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
+  "release_notes": "Publish public frontend release for updater"
 }
