@@ -1,16 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20261001104802-36b80d2",
+  "latest_build": "20261002075409-0f3c28c",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
   "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "release_date": "2026-06-30",
   "whats_new": [
-    "PHARMACY MANAGEMENT SYSTEM FRONTEND"
+    "Fix invoice detail date display"
   ],
-  "published_at": "2026-10-01T10:48:02Z",
+  "published_at": "2026-10-02T07:54:09Z",
   "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
-  "release_notes": "PHARMACY MANAGEMENT SYSTEM FRONTEND"
+  "release_notes": "Fix invoice detail date display"
 }
