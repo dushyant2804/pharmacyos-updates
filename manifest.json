@@ -1,17 +1,16 @@
 {
   "latest_version": "0.1.0",
-  "latest_build": "20261002083858-1d2b10d",
+  "latest_build": "20261002092829-0514faa",
   "channel": "stable",
   "mandatory": false,
   "update_size_bytes": 52428800,
   "download_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "release_date": "2026-06-30",
   "whats_new": [
-    "Merge pull request #151 from dushyant2804/feature/invoice-edit-protection",
-    "WIP: Invoice edit flow with privacy protection"
+    "Fix autocomplete undefined label error"
   ],
-  "published_at": "2026-10-02T08:38:58Z",
+  "published_at": "2026-10-02T09:28:29Z",
   "frontend_artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
   "artifact_url": "https://github.com/dushyant2804/PHARMACY-PRO-01-FRONTEND/releases/download/frontend-latest/pharmacyos-frontend-dist.zip",
-  "release_notes": "Merge pull request #151 from dushyant2804/feature/invoice-edit-protection\n\nWIP: Invoice edit flow with privacy protection"
+  "release_notes": "Fix autocomplete undefined label error"
 }
